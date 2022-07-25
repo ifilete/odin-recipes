@@ -9,26 +9,46 @@ img {
     height: 50%;
 }
 
+h1 {
+    color: #15133C;
+}
+
+h3 {
+    background-color: #E5CB9F;
+}
+
+a {
+    color:#15133C;
+    text-decoration: none;
+}
+
+.container, h1, h3 {
+    text-align: center;
+}
+
 .container {
     border-radius: 5px;
-    text-align: center;
 }
 
 .container.image {
     background: #99C4C8;
 }
 
-h1 {
-    text-align: center;
-    color: #15133C;
-}
 
 .container.preparation {
     background-color: #EEE4AB;
     text-align: left;
 }
 
-h3 {
-    background-color: #E5CB9F;
-    text-align: center;
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
 }
+
+.container.icon {
+    height: 50%;
+    width: 50%;
+}
+
+
